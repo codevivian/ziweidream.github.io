@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster");
+body {
+  font-family: "Lobster", Arial;
+}
+
+h1 {
+  color: rgb(51, 51, 51);
+}
+
+.greeting {
+  margin-top: 20px;
+  margin-bottom: 47px;
+}
+
+hr {
+  overflow: visible; /* For IE */
+  padding: 0;
+  border: none;
+  border-top: medium double #333;
+  color: #333;
+  text-align: center;
+}
+hr:after {
+  content: "§";
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  background: white;
+}
+
+#portfolio2 .grid {
+  padding: 0;
+  max-width: 90%;
+  list-style: none;
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+#message {
+  width: 100%;
+}
+
+.form-item {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+footer {
+  padding-top: 40px;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+img {
+  border-radius: 12px;
+}
+.project {
+  padding: 5px;
+}
